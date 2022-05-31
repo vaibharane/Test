@@ -35,7 +35,7 @@ public class VerifyLogin_AddToCart {
 	@BeforeTest
 	public void launchbrowser1(String browser)
 	{
-		//System.out.println(browser);
+		System.out.println(browser);
 		
 		if(browser.equals("chrome"))
 		{
