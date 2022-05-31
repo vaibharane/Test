@@ -36,7 +36,7 @@ public class VerifyLogin_AddToCart {
 	public void launchbrowser1(String browser)
 	{
 		System.out.println(browser);
-		
+		System.out.print("Bye");
 		if(browser.equals("chrome"))
 		{
 			driver=Base.openchromebrowser();
